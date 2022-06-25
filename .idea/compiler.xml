@@ -6,18 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="gatway-service" />
+        <module name="gatway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="bin" target="1.8" />
-      <module name="gatway-service" target="1.8" />
+      <module name="gatway" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="bin" options="-parameters" />
-      <module name="gatway-service" options="-parameters" />
+      <module name="gatway" options="-parameters" />
     </option>
   </component>
 </project>

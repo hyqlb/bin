@@ -1,0 +1,17 @@
+#指定服务的启动端口号
+server.port=7001
+######################服务注册发现配置#################################
+# 服务注册中心的地址
+spring.cloud.nacos.discovery.server-addr=127.0.0.1:8848
+# 服务的命名空间
+#spring.cloud.nacos.discovery.namespace=public
+#nacos认证信息
+#spring.cloud.nacos.discovery.username=nacos
+#spring.cloud.nacos.discovery.password=nacos
+######################集成redis###############################
+#spring.redis.host=127.0.0.1
+#spring.redis.port=6379
+#spring.redis.password=xxxxxxx
+
+#demo01测试
+nacos.test.aaa=hello,world.......

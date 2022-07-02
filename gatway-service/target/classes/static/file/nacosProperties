@@ -1,0 +1,70 @@
+#指定服务的启动端口号
+server.port=7001
+
+######################服务注册发现配置#################################
+# 服务注册中心的地址
+spring.cloud.nacos.discovery.server-addr=127.0.0.1:8848
+# 服务的命名空间
+#spring.cloud.nacos.discovery.namespace=public
+#nacos认证信息
+#spring.cloud.nacos.discovery.username=nacos
+#spring.cloud.nacos.discovery.password=nacos
+
+######################集成redis###############################
+#spring.redis.host=127.0.0.1
+#spring.redis.port=6379
+#spring.redis.password=xxxxxxx
+
+######################gateway相关配置##########################
+#路由可以有多个
+##demo服务路由器，拦截api/demo请求，并重写url地址
+#自定义路由ID，保持唯一
+spring.cloud.gateway.routes.id=demo_route
+#目标服务地址，lb表示负载均衡
+spring.cloud.gateway.routes.uri=lb://demoe-xxxx
+#断言
+##时间点后匹配
+#spring.cloud.gateway.routes.predicates=- After=2022-06-20T17:42:47.789-07:00[America/Denver]
+##时间点前匹配
+#spring.cloud.gateway.routes.predicates=- Before=2022-06-20T17:42:47.789-07:00[America/Denver]
+##时间区间匹配
+#spring.cloud.gateway.routes.predicates=- Between=2022-06-20T17:42:47.789-07:00[America/Denver],2022-07-21T17:45:47.789-07:00[America/Denver]
+##指定Cookie正则匹配指定值
+#spring.cloud.gateway.routes.predicates=- Cookie=chocolate, ch.p
+##指定Header正则匹配指定值
+#spring.cloud.gateway.routes.predicates=- Header=X-Request-Id,\d+
+##请求Host匹配指定值
+#spring.cloud.gateway.routes.predicates=- Host=**.somehost.org,**.anotherhost.org
+##请求Method匹配指定请求方式
+#spring.cloud.gateway.routes.predicates=- Method=GET,POST
+##请求路径正则匹配
+#spring.cloud.gateway.routes.predicates=- Path=/demo01/{segment},/demo02/{segment}
+##请求包含某参数
+#spring.cloud.gateway.routes.predicates=- Query=demo
+##远程地址匹配
+#spring.cloud.gateway.routes.predicates=- RemoteAddr=192.168.1.1/24
+##权重规则匹配
+##该表达式表示会将80%的流量转发至上述uri地址
+#spring.cloud.gateway.routes.predicates=- Weight=group1,8
+#过滤器
+##Header头部过滤器
+#spring.cloud.gateway.routes.filters=- AddRequestHeader=demo
+##Parameter请求参数过滤器
+#spring.cloud.gateway.routes.filters=- AddRequestParameter=demo
+##Path路径过滤器
+#spring.cloud.gateway.routes.filters=- RewritePath=/api/xxxxxx
+##跨域问题
+#spring.cloud.gateway.globalcors.cors-configurations='[/**]':
+#spring.cloud.gateway.globalcors.cors-configurations.allowedOrigins="https://www.baidu.com"
+#spring.cloud.gateway.globalcors.cors-configurations.allowedMethods=- GET
+##限流问题
+#spring.cloud.gateway.routes.filters=- name:RequestRateLimiter
+##允许用户每秒处理多少个请求
+#spring.cloud.gateway.routes.args.redis-rate-limiter.replenishRate=10
+##令牌桶的容量，允许在1秒内完成的最大请求数
+#spring.cloud.gateway.routes.args.redis-rate-limiter.burstCapacity=10
+##使用SpEL按名称引用bean
+#spring.cloud.gateway.routes.args.key-resolver="#{@ipKeyResolver}"
+
+#demo01测试
+nacos.test.aaa=hello,world.......

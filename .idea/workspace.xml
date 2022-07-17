@@ -2,53 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9802ac85-72d6-4f00-8b7b-43c48eac8891" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_50_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_50_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_50_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_50_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_50_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_50_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_50_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_50_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_50_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_50_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_50_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_50_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_addons_reactor_extra_3_3_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_0_9_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_1_5_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_gateway_core_2_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_gateway_2_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_multipart_parser_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_stream_storage_1_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gatway-service/src/main/java/com/packet/gatway/manage/filter/BlackListFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gatway-service/src/main/java/com/packet/gatway/manage/model/CorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gatway-service/src/main/java/com/packet/gatway/manage/predicates/TokenConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gatway-service/src/main/java/com/packet/gatway/manage/predicates/TokenRoutePredicateFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/bin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_36.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_36.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/resources/static/file/nacosProperties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatway-service/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_36.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_36.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_3_1_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_3_1_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webflux_5_2_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatway-service/gatway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gatway-service/gatway.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatway-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gatway-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatway-service/src/main/java/com/packet/gatway/manage/demo01/controller/Demo01Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatway-service/src/main/resources/static/file/nacosProperties" beforeDir="false" afterPath="$PROJECT_DIR$/gatway-service/src/main/resources/static/file/nacosProperties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatway-service/src/main/java/com/packet/gatway/manage/filter/BlackListFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/gatway-service/src/main/java/com/packet/gatway/manage/filter/BlackListFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatway-service/src/main/java/com/packet/gatway/manage/model/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gatway-service/src/main/java/com/packet/gatway/manage/model/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatway-service/src/main/java/com/packet/gatway/manage/predicates/TokenRoutePredicateFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/gatway-service/src/main/java/com/packet/gatway/manage/predicates/TokenRoutePredicateFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,10 +58,18 @@
     <property name="ToolWindowVersion Control.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bin-mktcenter/src/main/resources/static/file" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\workspaces\bin\bin-mktcenter\src\main\resources\static\file" />
+      <recent name="F:\workspaces\bin\bin-mktcenter\src\main\resources" />
+      <recent name="F:\workspaces\bin\gatway-service" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -106,7 +83,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GatwayApplication">
+  <component name="RunManager" selected="Spring Boot.MktcenterApplication">
     <configuration name="Demo01ControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gatway" />
       <extension name="coverage">
@@ -157,6 +134,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MktcenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="bin-mktcenter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.packet.mktcenter.MktcenterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.GatwayApplication" />
@@ -177,7 +161,7 @@
       <updated>1656156287627</updated>
       <workItem from="1656156288782" duration="5231000" />
       <workItem from="1656161585393" duration="93137000" />
-      <workItem from="1656748279761" duration="824000" />
+      <workItem from="1656748279761" duration="11812000" />
     </task>
     <task id="LOCAL-00001" summary="20220625">
       <created>1656157257665</created>
@@ -214,7 +198,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656419876593</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="20220702 集成gateway,实现gateway跨域，路由，断言，过滤器配置，自定义断言，自定义过滤器">
+      <created>1656749261057</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1656749261057</updated>
+    </task>
+    <task id="LOCAL-00007" summary="20220702 集成gateway,实现gateway跨域，路由，断言，过滤器配置，自定义断言，自定义过滤器">
+      <created>1656749271700</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1656749271700</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +235,8 @@
     <MESSAGE value="20220625" />
     <MESSAGE value="20220627 springboot集成nacos与单元测试" />
     <MESSAGE value="20220628 增加nacos配置信息文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="20220628 增加nacos配置信息文件" />
+    <MESSAGE value="20220702 集成gateway,实现gateway跨域，路由，断言，过滤器配置，自定义断言，自定义过滤器" />
+    <option name="LAST_COMMIT_MESSAGE" value="20220702 集成gateway,实现gateway跨域，路由，断言，过滤器配置，自定义断言，自定义过滤器" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

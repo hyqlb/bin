@@ -66,7 +66,7 @@ public class TokenRoutePredicateFactory extends AbstractRoutePredicateFactory<To
     }
 
     /**
-     * 用来吧配置中的值变成一个集合
+     * 用来把配置中的值变成一个集合
      * @return
      */
     @Override

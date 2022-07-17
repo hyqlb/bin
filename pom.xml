@@ -17,6 +17,7 @@
     <!-- 引入子模块 -->
     <modules>
         <module>gatway-service</module>
+        <module>bin-mktcenter</module>
     </modules>
 
     <packaging>pom</packaging>

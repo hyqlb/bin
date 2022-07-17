@@ -47,7 +47,6 @@ public class BlackListFilter implements GlobalFilter, Ordered
         }
         // 合法请求，放行
         return chain.filter(exchange);
-        
     }
 
     /**

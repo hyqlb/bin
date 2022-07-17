@@ -30,5 +30,4 @@ public class CorsConfig
         CorsWebFilter corsWebFilter = new CorsWebFilter(source);
         return corsWebFilter;
     }
-
 }

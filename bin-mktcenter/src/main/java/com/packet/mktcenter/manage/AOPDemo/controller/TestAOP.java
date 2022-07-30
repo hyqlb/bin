@@ -41,7 +41,7 @@ public class TestAOP {
         advisedSupport.addInterface(interfaces);
         AopProxy aopProxy = factory.createAopProxy(advisedSupport);
         ADemo proxyObj = (ADemo) aopProxy.getProxy();
-        proxyObj.ext();
+        proxyObj.send();
     }
 }
 

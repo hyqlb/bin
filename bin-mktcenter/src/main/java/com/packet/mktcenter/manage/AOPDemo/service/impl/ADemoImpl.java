@@ -4,7 +4,7 @@ import com.packet.mktcenter.manage.AOPDemo.service.ADemo;
 
 public class ADemoImpl implements ADemo {
     @Override
-    public void ext() {
+    public void send() {
         System.out.println(".........................");
     }
 }

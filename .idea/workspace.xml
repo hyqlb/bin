@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9802ac85-72d6-4f00-8b7b-43c48eac8891" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/algorithmDemo/model/SnowFlowInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/algorithmDemo/service/SnowFlowService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/algorithmDemo/service/impl/SnowFlowErrorCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/algorithmDemo/service/impl/SnowFlowServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/system/sysResult/exceptionEnhance/BusinessException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/system/sysResult/exceptionEnhance/GlobalException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/system/sysResult/model/RV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/system/sysResult/model/ResultVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/system/sysResult/service/IErrorCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/system/sysResult/service/impl/ErrorCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/AOPDemo/controller/TestAOP.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/AOPDemo/controller/TestAOP.java" afterDir="false" />
-    </list>
+    <list default="true" id="9802ac85-72d6-4f00-8b7b-43c48eac8891" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +170,7 @@
       <workItem from="1656161585393" duration="93137000" />
       <workItem from="1656748279761" duration="12698000" />
       <workItem from="1658752217769" duration="68177000" />
-      <workItem from="1660292655451" duration="92956000" />
+      <workItem from="1660292655451" duration="93142000" />
     </task>
     <task id="LOCAL-00001" summary="20220625">
       <created>1656157257665</created>
@@ -262,7 +249,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659167006441</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="20220817 自定义封装方法返回对象">
+      <created>1660693151955</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1660693151956</updated>
+    </task>
+    <task id="LOCAL-00013" summary="20220817 实现雪花算法生成趋势递增唯一ID">
+      <created>1660693195878</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1660693195878</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +289,9 @@
     <MESSAGE value="20220702 集成gateway,实现gateway跨域，路由，断言，过滤器配置，自定义断言，自定义过滤器" />
     <MESSAGE value="20220717 增加mktcenter工程" />
     <MESSAGE value="20220730 手写AOP版本一" />
-    <option name="LAST_COMMIT_MESSAGE" value="20220730 手写AOP版本一" />
+    <MESSAGE value="20220817 自定义封装方法返回对象" />
+    <MESSAGE value="20220817 实现雪花算法生成趋势递增唯一ID" />
+    <option name="LAST_COMMIT_MESSAGE" value="20220817 实现雪花算法生成趋势递增唯一ID" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

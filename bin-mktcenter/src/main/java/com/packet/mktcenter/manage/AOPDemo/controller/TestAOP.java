@@ -5,8 +5,6 @@ import com.packet.mktcenter.manage.AOPDemo.service.impl.ADemoImpl;
 import com.packet.mktcenter.manage.AOPDemo.model.AdvisedSupport;
 import com.packet.mktcenter.manage.AOPDemo.service.impl.DefaultAopproxyFactory;
 import com.packet.mktcenter.manage.AOPDemo.service.impl.DefaultPointcutAdvisor;
-
-
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;

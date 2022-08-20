@@ -1,11 +1,12 @@
-package com.packet.mktcenter.manage.algorithmDemo.controller;
+package com.packet.mktcenter.manage.snowFlowDemo.controller;
 
-import com.packet.mktcenter.manage.algorithmDemo.model.SnowFlowInfo;
-import com.packet.mktcenter.manage.algorithmDemo.service.SnowFlowService;
-import com.packet.mktcenter.manage.algorithmDemo.service.impl.SnowFlowErrorCode;
+import com.packet.mktcenter.manage.snowFlowDemo.model.SnowFlowInfo;
+import com.packet.mktcenter.manage.snowFlowDemo.service.SnowFlowService;
+import com.packet.mktcenter.manage.snowFlowDemo.service.impl.SnowFlowErrorCode;
 import com.packet.mktcenter.system.sysResult.exceptionEnhance.BusinessException;
 import com.packet.mktcenter.system.sysResult.model.RV;
 import com.packet.mktcenter.system.sysResult.model.ResultVO;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -13,7 +14,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import java.util.Map;
 import java.util.Objects;
+import com.alibaba.fastjson.JSON;
 
+
+@Slf4j
 @RestController
 @RequestMapping(value = {"/snowFlow/SnowFlowManager"})
 public class SnowFlowController {
@@ -27,6 +31,7 @@ public class SnowFlowController {
      */
     @RequestMapping(value = {"/createSnowFlow"}, method = RequestMethod.POST)
     public ResultVO createSnowFlow(@RequestBody Map<String, String> map){
+        log.info("SnowFlowController begin createSnowFlow:{}", JSON.toJSONString(map));
         SnowFlowInfo info = new SnowFlowInfo();
         if (Objects.nonNull(map.get("workerId"))){
             long workerId = Long.valueOf(map.get("workerId"));
@@ -47,6 +52,7 @@ public class SnowFlowController {
             throw new BusinessException(SnowFlowErrorCode.SYSTEM_NULL_BUSY);
         }
         Long snowFlowId = snowFlowService.createSnowFlow(info);
+        log.info("SnowFlowController end createSnowFlow:{}", JSON.toJSONString(snowFlowId));
         return RV.success(snowFlowId);
     }
 }

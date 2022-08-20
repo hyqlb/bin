@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9802ac85-72d6-4f00-8b7b-43c48eac8891" name="Default Changelist" comment="" />
+    <list default="true" id="9802ac85-72d6-4f00-8b7b-43c48eac8891" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson2_fastjson2_2_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson2_fastjson2_extension_2_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_2_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/bin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/algorithmDemo/controller/SnowFlowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/snowFlowDemo/controller/SnowFlowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/algorithmDemo/model/SnowFlowInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/snowFlowDemo/model/SnowFlowInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/algorithmDemo/service/SnowFlowService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/snowFlowDemo/service/SnowFlowService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/algorithmDemo/service/impl/SnowFlowErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/snowFlowDemo/service/impl/SnowFlowErrorCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/algorithmDemo/service/impl/SnowFlowServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/snowFlowDemo/service/impl/SnowFlowServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatway-service/gatway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gatway-service/gatway.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +31,7 @@
         <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -170,7 +185,8 @@
       <workItem from="1656161585393" duration="93137000" />
       <workItem from="1656748279761" duration="12698000" />
       <workItem from="1658752217769" duration="68177000" />
-      <workItem from="1660292655451" duration="93142000" />
+      <workItem from="1660292655451" duration="93448000" />
+      <workItem from="1660988973837" duration="2779000" />
     </task>
     <task id="LOCAL-00001" summary="20220625">
       <created>1656157257665</created>
@@ -263,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660693195878</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="20220817 实现雪花算法生成趋势递增唯一ID">
+      <created>1660693377838</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1660693377838</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,4 +1,4 @@
-package com.packet.mktcenter.manage.algorithmDemo.service.impl;
+package com.packet.mktcenter.manage.snowFlowDemo.service.impl;
 
 import com.packet.mktcenter.system.sysResult.service.IErrorCode;
 

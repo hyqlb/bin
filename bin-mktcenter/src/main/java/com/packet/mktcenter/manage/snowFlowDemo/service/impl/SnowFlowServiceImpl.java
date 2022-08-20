@@ -1,7 +1,7 @@
-package com.packet.mktcenter.manage.algorithmDemo.service.impl;
+package com.packet.mktcenter.manage.snowFlowDemo.service.impl;
 
-import com.packet.mktcenter.manage.algorithmDemo.model.SnowFlowInfo;
-import com.packet.mktcenter.manage.algorithmDemo.service.SnowFlowService;
+import com.packet.mktcenter.manage.snowFlowDemo.model.SnowFlowInfo;
+import com.packet.mktcenter.manage.snowFlowDemo.service.SnowFlowService;
 import org.springframework.stereotype.Service;
 
 @Service

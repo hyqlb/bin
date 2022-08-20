@@ -1,4 +1,4 @@
-package com.packet.mktcenter.manage.algorithmDemo.model;
+package com.packet.mktcenter.manage.snowFlowDemo.model;
 
 import lombok.Data;
 

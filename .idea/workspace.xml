@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9802ac85-72d6-4f00-8b7b-43c48eac8891" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/timeDemo/controller/DemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/timeDemo/model/ITask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/timeDemo/service/IWheel.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/timeDemo/service/impl/TimerWheel.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/timeWheelDemo/controller/TimeWheelController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/timeWheelDemo/model/TimeWheelInfo.java" afterDir="false" />
@@ -14,11 +10,7 @@
       <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/timeWheelDemo/service/Timer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/timeWheelDemo/service/impl/TimerImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/timeWheelDemo/service/impl/TimerTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/bin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatway-service/gatway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gatway-service/gatway.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gatway-service/src/test/java/com/packet/gatway/manage/demo01/controller/Demo01ControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +99,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DemoController">
+  <component name="RunManager" selected="Application.TimeWheelController">
     <configuration name="DemoController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.packet.mktcenter.manage.timeDemo.controller.DemoController" />
       <module name="bin-mktcenter" />
@@ -204,8 +196,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DemoController" />
         <item itemvalue="Application.TimeWheelController" />
+        <item itemvalue="Application.DemoController" />
         <item itemvalue="JUnit.SnowFlowControllerTest" />
         <item itemvalue="JUnit.SnowFlowControllerTest.createSnowFlow" />
         <item itemvalue="JUnit.SnowFlowControllerTest.get" />
@@ -228,7 +220,7 @@
       <workItem from="1658752217769" duration="68177000" />
       <workItem from="1660292655451" duration="93448000" />
       <workItem from="1660988973837" duration="232816000" />
-      <workItem from="1662549876636" duration="631000" />
+      <workItem from="1662549876636" duration="958000" />
     </task>
     <task id="LOCAL-00001" summary="20220625">
       <created>1656157257665</created>
@@ -342,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661868802479</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="20220907 时间轮算法">
+      <created>1662550763681</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1662550763681</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,7 +371,8 @@
     <MESSAGE value="20220817 实现雪花算法生成趋势递增唯一ID" />
     <MESSAGE value="20220820 增加日志" />
     <MESSAGE value="20220830 单元测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="20220830 单元测试" />
+    <MESSAGE value="20220907 时间轮算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="20220907 时间轮算法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

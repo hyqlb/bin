@@ -3,6 +3,8 @@ package com.packet.mktcenter.manage.snowFlowDemo.controller;
 import com.packet.mktcenter.manage.snowFlowDemo.model.SnowFlowInfo;
 import com.packet.mktcenter.manage.snowFlowDemo.service.SnowFlowService;
 import com.packet.mktcenter.manage.snowFlowDemo.service.impl.SnowFlowErrorCode;
+import com.packet.mktcenter.system.sysOperateLog.model.OpType;
+import com.packet.mktcenter.system.sysOperateLog.service.OpLog;
 import com.packet.mktcenter.system.sysResult.exceptionEnhance.BusinessException;
 import com.packet.mktcenter.system.sysResult.model.RV;
 import com.packet.mktcenter.system.sysResult.model.ResultVO;
@@ -29,6 +31,8 @@ public class SnowFlowController {
      * @param map
      * @return
      */
+    //@SystemCrmlog(description = "生成了趋势递增主键", tableName = "sys_log_info")
+    @OpLog(opType = OpType.INSERT, opItem = "snowFlow", opItemIdExpression = "123")
     @RequestMapping(value = {"/createSnowFlow"}, method = RequestMethod.POST)
     public ResultVO createSnowFlow(@RequestBody Map<String, String> map){
         log.info("SnowFlowController begin createSnowFlow:{}", JSON.toJSONString(map));

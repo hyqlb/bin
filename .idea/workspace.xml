@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9802ac85-72d6-4f00-8b7b-43c48eac8891" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/timeDemo/service/impl/TimerWheel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/timeWheelDemo/controller/TimeWheelController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/timeWheelDemo/model/TimeWheelInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/timeWheelDemo/model/TimerTaskEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/timeWheelDemo/model/TimerTaskList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/timeWheelDemo/service/Timer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/timeWheelDemo/service/impl/TimerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/timeWheelDemo/service/impl/TimerTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatway-service/src/test/java/com/packet/gatway/manage/demo01/controller/Demo01ControllerTest.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/system/sysCustomAnnotation/customLog/model/CrmLogMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/system/sysCustomAnnotation/customLog/model/SystemLogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/system/sysCustomAnnotation/customLog/service/SystemCrmlog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/system/sysCustomAnnotation/customLog/util/WebUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/system/sysCustomAnnotation/paramCheck/model/CrmParamCheckMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/system/sysCustomAnnotation/paramCheck/model/SystemParamCheckAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/system/sysCustomAnnotation/paramCheck/service/SysParamCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-mktcenter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bin-mktcenter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/snowFlowDemo/controller/SnowFlowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/snowFlowDemo/controller/SnowFlowController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,10 +26,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="spring-beans.schema" />
         <option value="FxmlFile" />
         <option value="JUnit5 Test Class" />
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -68,12 +70,13 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.packet.mktcenter.manage.snowFlowDemo.controller" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.packet.mktcenter.manage.timeWheelDemo.service" />
-      <recent name="com.packet.mktcenter.manage.AOPDemo.service" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.packet.mktcenter.system.sysLog.service" />
+      <recent name="com.packet.mktcenter.manage.timeWheelDemo.service" />
+      <recent name="com.packet.mktcenter.manage.AOPDemo.service" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.packet.mktcenter.manage.algorithmDemo.service.impl" />
@@ -85,6 +88,9 @@
       <recent name="F:\workspaces\bin\bin-mktcenter\src\main\resources\static\file" />
       <recent name="F:\workspaces\bin\bin-mktcenter\src\main\resources" />
       <recent name="F:\workspaces\bin\gatway-service" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.packet.mktcenter.system.sysOperateLog.model" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -99,7 +105,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TimeWheelController">
+  <component name="RunManager" selected="Spring Boot.MktcenterApplication">
     <configuration name="DemoController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.packet.mktcenter.manage.timeDemo.controller.DemoController" />
       <module name="bin-mktcenter" />
@@ -220,7 +226,7 @@
       <workItem from="1658752217769" duration="68177000" />
       <workItem from="1660292655451" duration="93448000" />
       <workItem from="1660988973837" duration="232816000" />
-      <workItem from="1662549876636" duration="958000" />
+      <workItem from="1662549876636" duration="24777000" />
     </task>
     <task id="LOCAL-00001" summary="20220625">
       <created>1656157257665</created>
@@ -341,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662550763681</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="20220907 时间轮算法二">
+      <created>1662550878080</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1662550878080</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,7 +385,8 @@
     <MESSAGE value="20220820 增加日志" />
     <MESSAGE value="20220830 单元测试" />
     <MESSAGE value="20220907 时间轮算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="20220907 时间轮算法" />
+    <MESSAGE value="20220907 时间轮算法二" />
+    <option name="LAST_COMMIT_MESSAGE" value="20220907 时间轮算法二" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

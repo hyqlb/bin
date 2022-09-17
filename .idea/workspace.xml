@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9802ac85-72d6-4f00-8b7b-43c48eac8891" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/system/sysCustomAnnotation/customLog/model/CrmLogMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/system/sysCustomAnnotation/customLog/model/SystemLogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/system/sysCustomAnnotation/customLog/service/SystemCrmlog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/system/sysCustomAnnotation/customLog/util/WebUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/system/sysCustomAnnotation/paramCheck/model/CheckType.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/system/sysCustomAnnotation/paramCheck/model/CrmParamCheckMessage.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/system/sysCustomAnnotation/paramCheck/model/SystemParamCheckAspect.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/system/sysCustomAnnotation/paramCheck/service/SysParamCheck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin-mktcenter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bin-mktcenter/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/snowFlowDemo/controller/SnowFlowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/snowFlowDemo/controller/SnowFlowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/system/sysResult/service/impl/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/system/sysResult/service/impl/ErrorCode.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,9 +25,9 @@
         <option value="spring-beans.schema" />
         <option value="FxmlFile" />
         <option value="JUnit5 Test Class" />
-        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -226,7 +222,7 @@
       <workItem from="1658752217769" duration="68177000" />
       <workItem from="1660292655451" duration="93448000" />
       <workItem from="1660988973837" duration="232816000" />
-      <workItem from="1662549876636" duration="24777000" />
+      <workItem from="1662549876636" duration="48194000" />
     </task>
     <task id="LOCAL-00001" summary="20220625">
       <created>1656157257665</created>
@@ -354,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662550878080</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="20220916 利用AOP实现自定义注解记录日志">
+      <created>1663291301696</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1663291301696</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,7 +389,8 @@
     <MESSAGE value="20220830 单元测试" />
     <MESSAGE value="20220907 时间轮算法" />
     <MESSAGE value="20220907 时间轮算法二" />
-    <option name="LAST_COMMIT_MESSAGE" value="20220907 时间轮算法二" />
+    <MESSAGE value="20220916 利用AOP实现自定义注解记录日志" />
+    <option name="LAST_COMMIT_MESSAGE" value="20220916 利用AOP实现自定义注解记录日志" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

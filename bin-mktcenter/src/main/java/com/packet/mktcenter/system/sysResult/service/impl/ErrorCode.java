@@ -10,7 +10,8 @@ public enum ErrorCode implements IErrorCode {
      */
     SUCCESS(0, "操作成功"),
     SYSTEM_BUSY(10000, "系统繁忙，请稍后再试！"),
-    ERROR(1, "操作失败");
+    SYSTEM_PARAMS_FAIL(1, "参数校验失败，请检查入参！"),
+    ERROR(2, "操作失败");
 
     private Integer code;
     private String msg;

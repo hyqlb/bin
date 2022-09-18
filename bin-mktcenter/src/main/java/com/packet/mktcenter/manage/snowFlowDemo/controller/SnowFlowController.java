@@ -28,8 +28,8 @@ public class SnowFlowController {
      * @param map
      * @return
      */
-    @SysParamCheck(paramCheckType = "1")
-    @SystemCrmlog(description = "生成了趋势递增主键", tableName = "sys_log_info")
+    //@SysParamCheck(paramCheckType = "1")
+    @SystemCrmlog(description = "生成了趋势递增主键", tableName = "sys_snow_flow_info")
     @RequestMapping(value = {"/createSnowFlow"}, method = RequestMethod.POST)
     public ResultVO createSnowFlow(@RequestBody Map<String, String> map){
         log.info("SnowFlowController begin createSnowFlow:{}", JSON.toJSONString(map));

@@ -1,0 +1,18 @@
+#创建database
+CREATE DATABASE bin_mkt_db character set utf8mb4;
+#创建日志表
+create table sys_log_info(
+                             log_id int(100) NOT NULL AUTO_INCREMENT,
+                             user_name varchar(100),
+                             user_role varchar(60),
+                             content varchar(4000),
+                             remarks varchar(4000),
+                             table_name varchar(200),
+                             date_time varchar(60),
+                             result_value varchar(200),
+                             ip varchar(100),
+                             request_url varchar(200),
+                             result varchar(100),
+                             ex_string varchar(1000),
+                             primary key (log_id)
+)ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8mb4;

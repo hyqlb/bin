@@ -2,10 +2,12 @@ package com.packet.mktcenter.system.sysCustomAnnotation.customLog.model;
 
 import com.alibaba.fastjson.JSON;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.packet.mktcenter.system.sysCustomAnnotation.customLog.mapper.LogMapper;
 import com.packet.mktcenter.system.sysCustomAnnotation.customLog.service.SystemCrmlog;
 import com.packet.mktcenter.system.sysCustomAnnotation.customLog.util.WebUtil;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.*;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.context.request.RequestAttributes;
 import org.springframework.web.context.request.RequestContextHolder;
@@ -27,6 +29,8 @@ import java.util.Objects;
 @Component
 public class SystemLogAspect {
 
+    @Autowired
+    private LogMapper logMapper;
     /**
      * 注解Pointcut切入点
      * 定义出一个或一组方法，当执行这些方法时可产生通知
@@ -85,7 +89,8 @@ public class SystemLogAspect {
 
         System.out.println("异常后输出的log日志：" + JSON.toJSONString(log));
         /**将数据保存到数据库*/
-
+        int num = logMapper.insert(log);
+        System.out.println("num....................." + num);
     }
 
     /**
@@ -161,7 +166,8 @@ public class SystemLogAspect {
 
         System.out.println("正常返回后输出的log日志：" + JSON.toJSONString(log));
         /**将数据保存到数据库*/
-
+        int num = logMapper.insert(log);
+        System.out.println("num....................." + num);
     }
 
     /**

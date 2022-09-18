@@ -2,19 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9802ac85-72d6-4f00-8b7b-43c48eac8891" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/system/sysCustomAnnotation/paramCheck/model/CheckType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/system/sysCustomAnnotation/paramCheck/model/CrmParamCheckMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/system/sysCustomAnnotation/paramCheck/model/SystemParamCheckAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/system/sysCustomAnnotation/paramCheck/service/SysParamCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_generator_3_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_3_72.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_72.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_72.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_3_72.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/system/sysCustomAnnotation/customLog/mapper/LogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/resources/static/file/sqlProperties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-mktcenter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bin-mktcenter/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/snowFlowDemo/controller/SnowFlowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/snowFlowDemo/controller/SnowFlowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/system/sysResult/service/impl/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/system/sysResult/service/impl/ErrorCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/system/sysCustomAnnotation/customLog/model/CrmLogMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/system/sysCustomAnnotation/customLog/model/CrmLogMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/system/sysCustomAnnotation/customLog/model/SystemLogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/system/sysCustomAnnotation/customLog/model/SystemLogAspect.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="bin" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="bin" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="bin" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="bin_mkt_db: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="bin" />
@@ -25,9 +75,9 @@
         <option value="spring-beans.schema" />
         <option value="FxmlFile" />
         <option value="JUnit5 Test Class" />
-        <option value="Interface" />
         <option value="Class" />
         <option value="Enum" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -45,6 +95,7 @@
   <component name="ProjectId" id="2B4D6SCFYYuwV8tRaTJxvoaYLt9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -57,6 +108,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/bin-mktcenter/src/main/resources/static/file" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -206,6 +258,31 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f05037f8" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f05037f8" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@5c10cdd1" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f05037f8" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@74a05c23" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -222,7 +299,7 @@
       <workItem from="1658752217769" duration="68177000" />
       <workItem from="1660292655451" duration="93448000" />
       <workItem from="1660988973837" duration="232816000" />
-      <workItem from="1662549876636" duration="48194000" />
+      <workItem from="1662549876636" duration="54503000" />
     </task>
     <task id="LOCAL-00001" summary="20220625">
       <created>1656157257665</created>
@@ -357,7 +434,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663291301696</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="20220917 利用AOP实现自定义注解校验入参">
+      <created>1663400356259</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1663400356259</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,7 +474,8 @@
     <MESSAGE value="20220907 时间轮算法" />
     <MESSAGE value="20220907 时间轮算法二" />
     <MESSAGE value="20220916 利用AOP实现自定义注解记录日志" />
-    <option name="LAST_COMMIT_MESSAGE" value="20220916 利用AOP实现自定义注解记录日志" />
+    <MESSAGE value="20220917 利用AOP实现自定义注解校验入参" />
+    <option name="LAST_COMMIT_MESSAGE" value="20220917 利用AOP实现自定义注解校验入参" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

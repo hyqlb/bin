@@ -1,34 +1,53 @@
 package com.packet.mktcenter.system.sysCustomAnnotation.customLog.model;
 
+import com.baomidou.mybatisplus.annotation.TableField;
+import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableName;
+
 /**
  * @ClassName CrmLogMessage
  * @Autor lb
  * @Describe 数据库日志类
  */
+/**定义实体类与数据库中表之间的映射关系*/
+@TableName(value = "sys_log_info")
 public class CrmLogMessage {
     /**日志id*/
+    /**标记该属性为主键，value：标记列名和属性名的对应*/
+    @TableId(value = "log_id")
     private Integer logid;
     /**管理员姓名*/
+    @TableField(value = "user_name")
     private String UserName;
     /**管理员角色*/
+    @TableField(value = "user_role")
     private String UserRole;
     /**日志描述*/
+    @TableField(value = "content")
     private String Content;
     /**参数集合*/
+    @TableField(value = "remarks")
     private String Remarks;
     /**表名称*/
+    @TableField(value = "table_name")
     private String TableName;
     /**操作时间*/
+    @TableField(value = "date_time")
     private String DateTime;
     /**返回值*/
+    @TableField(value = "result_value")
     private String resultValue;
     /**ip地址*/
+    @TableField(value = "ip")
     private String ip;
     /**请求地址*/
+    @TableField(value = "request_url")
     private String requestUrl;
     /**操作结果*/
+    @TableField(value = "result")
     private String result;
     /**错误信息*/
+    @TableField(value = "ex_string")
     private String ExString;
 
     public CrmLogMessage() {

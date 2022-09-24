@@ -2,28 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9802ac85-72d6-4f00-8b7b-43c48eac8891" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_5_8_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_classgraph_classgraph_4_8_83.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_webflux_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_webmvc_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_annotations_2_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_3_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_2_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_2_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/system/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_auth0_java_jwt_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/loginDemo/config/JwtConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/loginDemo/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/loginDemo/controller/TokenController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/loginDemo/interceptor/TokenInterceptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/bin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bin.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/MktcenterApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/MktcenterApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/snowFlowDemo/controller/SnowFlowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/java/com/packet/mktcenter/manage/snowFlowDemo/controller/SnowFlowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-mktcenter/src/main/resources/static/file/nacosProperties" beforeDir="false" afterPath="$PROJECT_DIR$/bin-mktcenter/src/main/resources/static/file/nacosProperties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gatway-service/gatway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gatway-service/gatway.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -109,7 +96,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
+    <property name="settings.editor.selected.configurable" value="spring.boot" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -296,7 +283,7 @@
       <workItem from="1658752217769" duration="68177000" />
       <workItem from="1660292655451" duration="93448000" />
       <workItem from="1660988973837" duration="232816000" />
-      <workItem from="1662549876636" duration="68777000" />
+      <workItem from="1662549876636" duration="77724000" />
     </task>
     <task id="LOCAL-00001" summary="20220625">
       <created>1656157257665</created>
@@ -445,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663471275226</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="20220924 整合hutool和swagger">
+      <created>1664009705446</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1664009705446</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,7 +474,8 @@
     <MESSAGE value="20220916 利用AOP实现自定义注解记录日志" />
     <MESSAGE value="20220917 利用AOP实现自定义注解校验入参" />
     <MESSAGE value="20220918 整合mybatis-plus,实现向mysql数据库中添加数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="20220918 整合mybatis-plus,实现向mysql数据库中添加数据" />
+    <MESSAGE value="20220924 整合hutool和swagger" />
+    <option name="LAST_COMMIT_MESSAGE" value="20220924 整合hutool和swagger" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

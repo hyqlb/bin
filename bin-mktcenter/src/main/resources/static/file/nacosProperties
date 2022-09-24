@@ -37,3 +37,12 @@ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 spring.datasource.username=lib
 spring.datasource.password=LibinUser@2022
 spring.datasource.url=jdbc:mysql://localhost:3306/bin_mkt_db?useUnicode=true&useSSL=false&serverTimezone=GMT
+
+######################登录校验集成JWT###############################
+spring.application.name=springboot-jwt
+#加密秘钥
+config.jwt.secret=abcdefg1234567
+#token有效时长
+config.jwt.expire=3600
+#header名称
+config.jwt.header=token

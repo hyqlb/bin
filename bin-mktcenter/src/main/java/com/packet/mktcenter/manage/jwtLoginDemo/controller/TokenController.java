@@ -1,8 +1,8 @@
-package com.packet.mktcenter.manage.loginDemo.controller;
+package com.packet.mktcenter.manage.jwtLoginDemo.controller;
 
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.json.JSONObject;
-import com.packet.mktcenter.manage.loginDemo.config.JwtConfig;
+import com.packet.mktcenter.manage.jwtLoginDemo.config.JwtConfig;
 import com.packet.mktcenter.system.sysResult.model.RV;
 import com.packet.mktcenter.system.sysResult.model.ResultVO;
 import lombok.extern.slf4j.Slf4j;

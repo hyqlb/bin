@@ -1,7 +1,7 @@
-package com.packet.mktcenter.manage.loginDemo.interceptor;
+package com.packet.mktcenter.manage.jwtLoginDemo.interceptor;
 
 import cn.hutool.core.util.StrUtil;
-import com.packet.mktcenter.manage.loginDemo.config.JwtConfig;
+import com.packet.mktcenter.manage.jwtLoginDemo.config.JwtConfig;
 import io.jsonwebtoken.Claims;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;

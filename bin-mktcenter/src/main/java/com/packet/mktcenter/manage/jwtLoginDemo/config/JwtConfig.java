@@ -1,4 +1,4 @@
-package com.packet.mktcenter.manage.loginDemo.config;
+package com.packet.mktcenter.manage.jwtLoginDemo.config;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

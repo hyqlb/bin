@@ -166,7 +166,7 @@ public class UserController {
      * @throws IOException
      */
     @SystemCrmlog(description = "用户动态自由导入测试方法", tableName = "")
-    @RequestMapping(value = {"/userImport"}, method = RequestMethod.POST)
+    @RequestMapping(value = {"/userImportFile"}, method = RequestMethod.POST)
     public ResultVO userImportFile() throws IOException {
         FileInputStream inputStream = new FileInputStream(new File("E:/soft/Ideal/user1.xlsx"));
         byte[] stream = IoUtils.toByteArray(inputStream);

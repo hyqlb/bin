@@ -2,11 +2,10 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bin-custcenter" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bin-mktcenter" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bin-mktcenter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gatway-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gatway-service/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
 </project>

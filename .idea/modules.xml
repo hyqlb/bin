@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/bin.iml" filepath="$PROJECT_DIR$/.idea/bin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bin-custcenter/bin-custcenter.iml" filepath="$PROJECT_DIR$/bin-custcenter/bin-custcenter.iml" />
       <module fileurl="file://$PROJECT_DIR$/bin-mktcenter/bin-mktcenter.iml" filepath="$PROJECT_DIR$/bin-mktcenter/bin-mktcenter.iml" />
       <module fileurl="file://$PROJECT_DIR$/gatway-service/gatway.iml" filepath="$PROJECT_DIR$/gatway-service/gatway.iml" />
       <module fileurl="file://$PROJECT_DIR$/bin-mktcenter/mktcenter.iml" filepath="$PROJECT_DIR$/bin-mktcenter/mktcenter.iml" />
